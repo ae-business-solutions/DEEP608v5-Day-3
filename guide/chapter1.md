@@ -6,7 +6,7 @@ In this chapter you will set up your own Okta environment and configure Okta to 
 Okta offers free development environments, which we are going to take advantage of for this lab. This free dev environment will allow you to explore Okta features with up to 5 apps, 1000 monthly active users, and unlimited authentications.
 
  - [ ] Create an Okta Developer Account here: https://developer.okta.com/signup/
- - [ ] We would recommend using the `Continue with GitHub` option to create your account: it's fast and easy.
+ - [ ] We would recommend using the `Continue with GitHub` option to create your account; it's fast and easy.
 
 ![Signup Form](images/Okta-Sign-Up.png)
 

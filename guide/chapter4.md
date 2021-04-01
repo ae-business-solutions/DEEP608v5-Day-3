@@ -1,4 +1,4 @@
-# Chapter 3: Testing & Verification
+# Chapter 4: Testing & Verification
 ### Overview
 In this chapter you will finally test out the micro-services based app you have been building the last 3 days!
 

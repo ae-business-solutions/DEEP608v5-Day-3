@@ -28,6 +28,16 @@ Let's verify that we have a new container image in our Container Registry!
  - [ ] You should see at least two images listed. One should have a recent `Created` timestamp (column on the right) and have the `Latest` tag assigned to it.
  - [ ] If you don't see the new container image, we will need to troubleshoot.
 
-If your container image is ready to go, continue to Chapter 3 to configure Ambassador!
+### Force Image Pull
+Since we configured Kubernetes to use the `latest` tag for simplicity, it won't automatically pull our new image. There are better ways to handle this in production, but for this lab we will keep it simple and just force Kubernetes to pull our new image.
+
+ - [ ] In the GCP Portal, go to GKE.
+ - [ ] Browse to the `Workloads` tab.
+ - [ ] Open the `block-page` Workload.
+ - [ ] In the `Managed Pods` section, click into each of the 3 Pods one at a time and use `Delete` to delete the Pod (make sure you delete the Pod, NOT the Deployment). Kubernetes will automatically recreate it with the new container image.
+
+When you are done, all 3 of your Pods will have a new `Created on` date.
+
+All set, on to Chapter 3!
 
 ## Continue to [Chapter 3](chapter3.md) (Ambassador Configuration)

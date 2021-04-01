@@ -55,7 +55,7 @@ Don't forget to Assign the app to your account!
 The last step is to take the `Client ID` and `Client Secret` from each of the two Okta applications and save them as variables in Terraform cloud. Our Terraform configuration will pass these values along to Ambassador during our deployment; Ambassador uses them to authenticate with Okta.
 
  - [ ] In a new tab, log into the Terraform Cloud portal and select your `Workspace`.
- - [ ] Go to the `Variables` tab.
+ - [ ] Go to the `Variables` tab. We are going to be adding `Terraform Variables` (NOT `Environment Variables`).
 
 We are going to add five (5) variables. You will get the value for each from the Okta Admin Portal. Using the `+ Add Variable` button, add each of these, copying and pasting from Okta. You can get these values from the Application Configuration page for each of the two apps.
 
